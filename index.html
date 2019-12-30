@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Comfortaa|Dancing+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d084ec093.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Vamos reciclar?</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light background">
+            <img style="width: 40px;" src="img/simb.png">
+            <a class="navbar-brand fonte-texto" href="#">Vamos reciclar?
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto" href="#">O que pode ser reciclado?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto" data-toggle="modal" data-target="#modalContato">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fonte-texto" href="#">Coleta Seletiva</a>
+                    </li>
+                    <li class="nav-item dropdown fonte-texto">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Onde descartar?
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Ecopontos</a>
+                            <a class="dropdown-item" href="#">Economia</a>
+                            <a class="dropdown-item" href="#">Dicas</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide fonte-texto" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <figure class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 imagem-carrossel" src="img/slide1.jpg" alt="Primeiro Slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Você também é responsável!</h5>
+                        <p>Recicle</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 imagem-carrossel" src="img/slide2.1.jpg" alt="Segundo Slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Seja consciente, lugar de lixo é no lixo!</h5>
+                        <p>Não encontrou uma lixeira? Leve seu lixo para sua casa!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 imagem-carrossel" src="img/slide3.jpg" alt="Terceiro Slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Faça a coleta seletiva.</h5>
+                        <p>O planeta agradece!</p>
+                    </div>
+                </div>
+            </figure>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </main>
+    <article>
+        <h3 class="text-center fonte-texto pt-3">Reciclagem: Você sabe o que é e qual a importância?</h3>
+        <p class="text-justify fonte-texto">Reciclar é o ato de transformar algo que não tenha mais utilidade (lixo) em
+            um
+            novo produto,
+            podendo ser igual ao anterior ou não.
+            A tão conhecida garrafa PET por exemplo, após todo o processo de reciclagem pode se transformar em cordas,
+            vassouras, caixas e novas garrafas.
+            Além da reciclagem ser uma atividade econômica e fonte de renda para muitas famílias, ela retira do meio
+            ambiente resíduos que levariam séculos para se decompor. Com a reciclagem há economia de energia,
+            preservação da
+            natureza, redução da poluição e contaminação do solo, só vantagens né!?</p>
+        <h4 class="text-center fonte-texto pt-3">Como faço a minha parte?</h4>
+        <p class="text-center fonte-texto">Atitudes simples fazem toda a diferença!</p>
+    </article>
+    <!-- CARD -->
+    <section class="container-fluid">
+        <div class="row justify-content-around">
+            <div class="card borda-card m-3" style="width: 18rem;">
+                <img class="card-img-top imagem-card" src="img/lixeira2.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title fonte-titulo-card">Passo 1</h5>
+                    <p class="card-text fonte-texto-card-footer">Tenha duas lixeiras: uma para os materiais recicláveis
+                        (latinhas de refrigerante, jornais, embalagens limpas e secas em geral) e outra para os restos
+                        orgânicos (sobras de comida, materiais sujos etc).</p>
+                    <a href="#" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
+                </div>
+            </div>
+            <div class="card borda-card m-3" style="width: 18rem;">
+                <img class="card-img-top imagem-card borda-card" src="img/seletiva.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title fonte-titulo-card">Passo 2</h5>
+                    <p class="card-text fonte-texto-card-footer">Leve o lixo reciclável até uma entidade ou supermercado
+                        que
+                        tenha latas para esse tipo de lixo ou outras empresas que trabalham com esse material. As latas
+                        de lixo são identificadas por cores.</p>
+                    <a href="#" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
+                </div>
+            </div>
+            <div class="card borda-card m-3" style="width: 18rem;">
+                <img class="card-img-top imagem-card borda-card" src="img/naorec.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title fonte-titulo-card">Passo 3</h5>
+                    <p class="card-text fonte-texto-card-footer">Evite incluir junto com os outros lixos não
+                        recicláveis, baterias, pilhas, lâmpadas, óleo de cozinha usado e outros resíduos que liberem
+                        substâncias químicas, uma vez que elas comprometem o meio ambiente.</p>
+                    <a href="#" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
+                </div>
+            </div>
+            <div class="card borda-card m-3" style="width: 18rem;">
+                <img class="card-img-top imagem-card borda-card" src="img/recicla.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title fonte-titulo-card">Passo 4</h5>
+                    <p class="card-text fonte-texto-card-footer">Se não der para levar o seu lixo até algum lugar,
+                        informe-se junto à prefeitura da sua cidade e descubra se a secretaria responsável realiza a
+                        coleta seletiva. Há cidades em que já existe a coleta que passa pelo local indicado
+                        em datas e horários diferentes aos da coleta normal de lixo.</p>
+                    <a href="#" class="btn btn-primary fonte-texto-card-footer">Ver mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title " id="exampleModalLabel">Contato</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- FORM -->
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Selecione o tipo de
+                                comentário</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Dúvidas</option>
+                                <option>Sugestōes</option>
+                                <option>Elogios</option>
+                                <option>Reclamações</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Escreva aqui seu
+                                comentário</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="container-fluid pt-5">
+        <!-- <div class="row justify-content-around m-1"> -->
+        <div>
+            <p class="text-center fonte-texto-card-footer">Minhas redes sociais</p>
+        </div>
+        <div class="row justify-content-center m-1">
+            <div><i class="m-5 fab fa-facebook-square"></i></div>
+            <div><i class="m-5 fab fa-twitter"></i> </div>
+            <div><i class="m-5 fab fa-instagram"></i></div>
+        </div>
+        <div class="text-center fonte-texto-footer pt-1">
+            <small>Copyright © Elaine Estainer <time datetime="2019">2019</time></small>
+        </div>
+    </footer>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
